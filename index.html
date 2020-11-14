@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+       <link rel="stylesheet" type="text/css" href="../bootstrap/dist/css/bootstrap.min.css">
+       <script src="https://kit.fontawesome.com/4f06ab69fc.js" crossorigin="anonymous"></script>
+       <title class="fa fa-youtube">YouTube </title>
+
+       <style>
+            #nav{
+            background-color: white;
+            height: 60px;           
+            } 
+            .pp{ 
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+            }
+            .body{
+                height: 50px;
+            }
+            #small{
+                margin-left: px;
+            }
+
+            .seax{
+                margin-top: -0px;
+                margin-right: 85px;
+                width: 578px;
+                height: 32px;
+                font-family: Roboto, Noto, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                border: 1px solid #CCCCCC;
+                background-color: #ffffff;
+                box-shadow: inset 0 0 10px #F3F3F3;
+                border-radius: 1px;
+            }
+
+
+            .sea{
+                margin-top: 4px; 
+                margin-left: 10px;
+                width: 562px;
+                height: 20px;
+                font-family: Roboto, Noto, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                border: none;
+                background-color: #ffffff;
+        
+            }
+
+            .sea:focus{
+                outline: none;
+            }
+
+             .seax:hover{
+                font-family: Roboto, Noto, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                background-color: #ffffff;
+                box-shadow: inset 0 0 10px #F3F3F3;
+                outline: 1px solid blue;
+                border-radius: 1px;
+            }
+
+            .sea1{
+                margin-top: -32px;
+                margin-left: 578px;
+                width: 60px;
+                height: 32px;
+                border: 1px solid #CCCCCC;
+                background-color: #F8F8F8;
+                box-shadow: inset 0 0 10px #F3F3F3;
+                border-radius: 1px;
+                cursor: pointer;
+            }
+
+            .sea2{
+                margin-top: -25px;
+                margin-left: 597px;
+                color: #828282;
+                cursor: pointer;
+
+            }
+
+            .sea3{
+                margin-top: -15px;
+                margin-left: 656px;
+                color: #333333;
+                cursor: pointer;
+
+            }
+
+
+
+
+            .sidebar {
+              height: 90%;
+              width: 240px;
+              position: fixed;
+              margin-top: 10px;
+              left: 0;
+              background-color:white;
+              overflow-x: hidden;
+            }
+            .sidebar::-webkit-scrollbar{
+             width: 0px;
+             height: 0px;
+             background-color: white;
+             display: initial;
+            }
+
+            .sidebar:hover::-webkit-scrollbar{
+             width: 6px;
+             height: 2px;
+             background-color: rgb(209,209,209);
+            }
+            
+            .easy151{
+              height: 45px;
+              width: 240px;
+              margin-top: 15px;
+              background-color:rgb(229,229,229);
+            }
+            
+
+            .easy5{
+              height: 45px;
+              width: 240px;
+              margin-top: 0px;
+            }
+            .easy5:hover{
+              background-color:rgb(229,229,229);
+            }
+
+            .easy6{
+              color: red;
+              font-size: medium;
+              margin-top: 13px;
+              margin-left: 30px;
+            }
+
+            .easy7x{
+              font-family: Roboto, Noto, sans-serif;
+              font-size: 14px;
+              font-weight: 550;
+              color: #030303;
+              margin-left: 20px;
+
+            }
+            .easy7{
+              font-family: Roboto, Noto, sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #030303;
+              margin-left: 22px;
+
+            }
+            .easy9{
+              position: absolute;
+              left:70px;
+              font-family: Roboto, Noto, sans-serif;
+              margin-top: 10px;
+              font-size: 14px;
+              font-weight: 400
+              color: #030303;
+            }
+            .easy8{
+              color:rgb(96,96,96);
+              font-size: medium;
+              margin-top: 13px;
+              margin-left: 32px
+            }
+            .easy17{
+              font-weight: bold;
+              font-family: Roboto, Arial, sans-serif;
+              font-size: 14px;
+              line-height: normal;
+              color:  rgb(110,110,110);
+              margin-left: 27px;
+            }
+            .easy18{
+              width: 25px;
+              height: 25px;
+              border-radius: 50%;
+              margin-left: 28px;
+              margin-top: 10px;
+            }
+            .easy19{
+              font-size: small ;
+              position: absolute;
+              left: 74px;
+              margin-top:-24px;
+            }
+            .easy20{
+              height: 45px;
+              width: 272px;
+              margin-top: 0px;
+
+
+            }
+            .easy20:hover{
+                background-color:rgb(229,229,229);
+            }
+            .sixth{
+              font-size: 12px;
+              font-weight: bold;
+              margin-left: 31px;
+              color: rgb(126, 126, 126);
+            }
+            
+            #light{
+                color: rgb(199, 199, 199);
+                font-size: 12px;
+            }
+            @media screen and (max-width: 850px)
+            {
+                div.body{
+                    height: 10px;
+                    width: 1109;
+                }
+                nav.sac{
+                    margin-left: -24px;
+                    font-size: 18px;
+                    height: 50px;
+                    border-bottom: 2px solid #D1D1D1;
+                    box-shadow: ;
+                }
+                img.pp{
+                    width: 24px;
+                    height: 24px;
+                }
+                span.sax, .seaxx, .sidebar, .others{
+                    display: none;
+                }
+                sup.sax{
+                    display: none;
+                }
+                div.body1{
+                    width: 100%;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                div.images{
+                    height: 100%;
+                    width: 100%;
+                    background-color: white;
+                    margin-top: 50px;
+                }
+                div.vids{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;  
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 408px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                div.ok{
+                    width: 248px;
+                    display: block;
+                }
+                div.role{
+                    margin-left: 405px;
+                    margin-top: 30px;
+                }
+                               
+            }
+
+            @media screen and (max-width: 768px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 362px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                div.role{
+                    margin-left: 305px;
+                }
+                               
+            }
+
+            @media screen and (max-width: 740px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 352px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 700px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 312px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 620px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 290px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 600px)
+            {
+                div.imgs{
+                    width: 46%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 260px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 562px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 510px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 480px)
+            {
+                div.imgs{
+                    width: 58%;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 514px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            @media screen and (max-width: 299px)
+            {
+                div.imgs{
+                    width: 48%;
+                    margin-left: 12px;
+                    margin-top: 0px;
+                }
+                img.nnn{
+                    width: 300px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                               
+            }
+            .body1{
+                margin-left: 240px
+            }
+            .others{
+                position: fixed;
+                width: 100%;
+                margin-left: 0px;
+                margin-top: -88px;
+       
+            }
+            .smally{
+                height: 65px;
+                width: 100%;
+                background-color: white;
+                overflow-y: hidden;
+                margin-top: -8px;
+                border-top: 1px solid #E5E5E5;
+                border-bottom: 1px solid #E5E5E5;
+            }
+
+            .smally::-webkit-scrollbar{
+             width: 0px;
+             height: 0px;
+             background-color: white;
+            }
+
+            .all{
+                width: 42px;
+                height: 32px;
+                background-color: #606060;
+                margin-left: 15px;    
+                margin-top: 18px;    
+                border-radius: 30px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #030303;
+            }
+
+            .all1{
+                width: 150px;
+                height: 32px;
+                background-color: #F2F2F2;
+                margin-left: 10px;
+                margin-top: 18px;
+                border: 1px solid #D9D9D9;     
+                border-radius: 30px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #030303
+            }
+
+            .all2{
+                width: 100px;
+                height: 32px;
+                background-color: #F2F2F2;
+                margin-left: 15px;
+                margin-top: 18px;
+                border: 1px solid #D9D9D9;
+                border-radius: 30px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #030303
+            }
+
+            .all2:hover{
+                background-color:rgb(234, 234, 234);
+            }
+            .all1:hover{
+                background-color:rgb(234, 234, 234);
+            }
+            .all:hover{
+                background-color:rgb(184, 184, 184);
+            }
+
+            .m1{
+                text-align: center;
+                color: #fff;
+                margin: 5px;
+            }
+            
+            .m2{
+                text-align: center;
+                margin: 5px;
+            }
+            .abc{
+                display: flex;
+                width: 135%
+ 
+            }
+
+            .images{
+                height: 100%;
+                width: 100%;
+                background-color: rgb(249,249,249);
+                margin-top: 106px;
+                
+            }
+
+            .vids{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0px;
+            }
+
+            .imgs{
+                margin-left: 20px; 
+                width: 250px;
+            }
+
+            .ppp{
+                margin-top: 10px;   
+                margin-left: 1px;
+                background-color: cadetblue;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+               
+            }
+
+            .word{
+                margin-left: 45px;
+                margin-top: -40px;
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+                
+                
+            }
+            .word1{
+                margin-left: 45px;
+                margin-top: -20px;
+                color: black;
+                font-weight:bold;
+                
+                font-size: 14px;
+            }
+            .word2{
+                margin-left: 45px;
+                margin-top: -12px;
+                color:#606060;
+                font-size: 14px;
+            }
+            .word2:hover{
+                color: black !important;
+                font-weight:normal;
+            }
+            .word:hover{
+                color: black;
+                text-decoration: none; 
+            }
+            .word3{
+                margin-left: 45px;
+                margin-top: -20px;
+                color: #606060;
+                font-size: 14px;
+            }
+            .word3:hover{
+                color: black !important ;
+                font-weight: normal;
+            }
+            .ok{
+                margin-top: -40px;
+                margin-left: 10px;
+            }
+            .role{
+            margin-top: 30px;
+                margin-left: 500px;
+            }
+            .sax{
+                display: flex;
+                float: left;
+                margin-top: 8px;
+                margin-right: 35px;
+            }
+            .s{
+                margin-left: 30px !important;
+            }
+            .sax{
+                color: rgb(255,255,255);
+            }
+            .m{
+                display: flex;
+                float: left;
+                margin-top: 10px;
+                margin-right: 15px;
+            }
+           
+       </style>
+  </head>
+    <body style="background-color: rgb(249,249,249)">
+        <div class="body">
+
+            <nav class="sac p-3 d-flex justify-content-between fixed-top mr-0 " id="nav">
+                <div class="dxx0">
+                    <span class=" fa fa-bars" style="margin-left: 40px; cursor: pointer;"> 
+    
+                    </span>
+                    <span class="s fab fa-youtube" style="color: red; margin-left: -15px; margin-top: 8px; cursor: pointer;">
+          
+                    </span>
+                    <span class="font-weight-bold " id="big" style="font-family: Roboto, Arial, sans-serif; cursor: pointer;">
+                        YouTube<sup style="font-size: 10px; " >NG</sup></span>
+                </div>
+
+                <div class="seaxx">
+                    <div class="seax">
+                        <input class="sea" type="" name="" placeholder="Search">
+                    </div>
+                    <div class="sea1 d-flex"></div>
+                    <div class="sea2 fa fa-search d-flex"></div>
+                    <div class="sea3 fas fa-microphone text-secondary d-flex"></div>
+                    
+                </div> 
+
+                
+                <div class="dxx mr-0">
+                    <span class="m fa fa-search d-block d-md-none text-secondary"></span>
+                    <span class="sax fa fa-video mr-4 mt-2 d-block d-md-block text-secondary" style="cursor: pointer;" ></span>
+                    <span class="sax fas fa-th mr-4 mt-2 text-secondary" style="cursor: pointer;"></span>
+                    <span class="sax fas fa-bell mr-4 mt-2 text-secondary" style="cursor: pointer;"></span>
+                    <span><img src="images/wendy.jpg" class="pp rounded-circle mr-3" alt="" style="cursor: pointer;" ></span>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="sidebar">
+
+                    <div class="words">
+                        
+                        <div class="first">
+                            <div class="easy151">
+                                <div class=" easy6 fas fa-home"></div>
+                                <span class="easy7x">Home</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-fire"> </div>
+                                <span class="easy7">Trending</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 far fa-bell"> </div>
+                                <span class="easy7">Subscriptions</span>
+                            </div>
+
+                            <hr class="x" style="width: 100%; border-bottom: 1px solid rgba(255,255,255,.25);" class="ml-0">
+
+                        </div>
+
+                        <div class="second">
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-book-reader"> </div>
+                                <span class="easy7">Library</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-history"></div>
+                                <span class="easy7">History</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-play-circle"></div>
+                                <span class="easy7"> Your Videos</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-clock"></div>
+                                <span class="easy7">Watch Later</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fas fa-thumbs-up"></div>
+                                <span class="easy7">Liked Videos</span>
+                            </div>
+
+                            <hr style="width: 100%; border-bottom: 1px solid rgba(255,255,255,.25);" class="ml-0">
+
+                        </div>
+
+                        <div class="third">
+                            <p class="easy17"> SUBSCRIPTIONS</p>
+
+                            <div class="easy20">
+                                <span><img src="images/sid.jpg" class="easy18"><p class="easy19">Sid Roth it'supernatural</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/red.jpg" class="easy18"> <p class="easy19">REDTV</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/apata.jpg" class="easy18"><p class="easy19">APATATV+</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/dami.jpg" class="easy18"><p class="easy19">Damilola Mike-Bami..</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/wendy.jpg" class="easy18"><p class="easy19"> Whendy D</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/mercy.jpg" class="easy18"><p class="easy19">Temitope Olaleye</p></span>
+                            </div>
+
+                            <div class="easy20">
+                                <span><img src="images/ndani.jpg" class="easy18"><p class="easy19">NdaniTV</p></span>
+                            </div>
+
+                            <hr style="width: 100%; border-bottom: 1px solid rgba(255,255,255,.25);" class="ml-0">
+                        </div>
+
+                        <div class="fourth">
+                            <p class="easy17"> MORE FROM YOUTUBE</p>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-youtube"></div>
+                                <span class="easy9">YouTube Premium</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-gamepad"></div>
+                                <span class="easy9">Gaming</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-youtube"></div>
+                                <span class="easy9">Live</span>
+                            </div>
+
+                            <hr style="width: 100%; border-bottom: 1px solid rgba(255,255,255,.25);" class="ml-0">
+                        </div>
+
+                        <div class="fifth">
+
+                             <div class="easy5">
+                                <div class=" easy8 fa fa-cog"></div>
+                                <span class="easy9">Settings</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-flag"></div>
+                                <span class="easy9">Report history</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-youtube"></div>
+                                <span class="easy9">Help</span>
+                            </div>
+
+                            <div class="easy5">
+                                <div class=" easy8 fa fa-youtube"></div>
+                                <span class="easy9">Send feedback</span>
+                            </div>
+                    </div>
+
+                        <hr class="x" style="width: 100%; border-bottom: 1px solid rgba(255,255,255,.25);" class="ml-0">
+                    </div>
+
+                    <div class="sixth">
+
+                        <p style="letter-spacing: 2px">
+                            About   Press   Copyright <br> Contact us Creators <br> Advertise Developers</p>
+                            <p style="letter-spacing: 2px">Terms Privacy Policy & Safety <br> How YouTube works <br> Test new features
+    
+                        </p>
+                            
+                            <p id="light">
+                             © 2020 Google LLC 
+                            </p>
+                    </div>
+
+        </div>
+
+        <div class="body1">
+                <div>
+                   
+                    <div class="others">
+                    
+                    <div class="smally ">
+                        <div class="abc">
+                        <div class="all"><p class="m1">All</p></div>
+                        <div class="all1"><p class="m2">Damilola Bamiloye </p></div>
+                        <div class="all1"><p class="m2">Inspiration</p></div>
+                        <div class="all2"><p class="m2">Weddings</p></div>
+                        <div class="all2"><p class="m2">comedy</p></div>
+                        <div class="all2"><p class="m2">Cooking</p></div>
+                        <div class="all2"><p class="m2"> Apatatv+</p></div>  
+                        <div class="all2"><p class="m2">ZFH Football</p></div>
+                        <div class="all1"><p class="m2">Hairstyle</p></div>
+                        <div class="all2"><p class="m2">Comedy</p></div>
+                        <div class="all2"><p class="m2">Python</p></div>
+                        <div class="all2"><p class="m2"> Apatatv+</p></div>
+                        <div class="all2"><p class="m2">ZFH Football</p></div>
+                        <div class="all1"><p class="m2">Matt Rittman</p></div>  
+                    </div>
+                        
+
+                    </div>
+
+                </div>
+  
+            <div class="images">
+                <div class="vids">
+                        <div class="imgs">
+                      
+                            <span><img class="nnn" src="images/102.PNG"></span>
+                          <div><img src="images/asala.jpg" class="ppp"></div>
+                            <div class="ok">
+                          <p><a href="vid2.html" class="word"> Asala latest yoruba Movie</a></p>
+                          <p class="word1"> 2020 Drama starring... </p>
+                          <p class="word2">Yorubaplus </p>
+                          <p class="word3">68K . 2days ago</p>
+                            </div>
+                          
+                         
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/105.PNG"></span>
+                           <div> <img src="images/daralaw.jpg" class="ppp"> </div>
+                            <div class="ok">
+                                <p><a href="vid1.html" class="word">DaraLaw 2020:LAWRENCE </a></p>
+                          <p class="word1">AND DARASIMI OYOR'S...</p>
+                          <p class="word2">REJOICE ORAUNO</p>
+                          <p class="word3">1.6K . 4days ago </p>
+                            </div>
+                        
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/107.PNG"></span>
+                           <div><img src="images/tao.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="vid3.html" class="word">TAOOMA X TWYSE- The </a></p>
+                          <p class="word1">Family reunion</p>
+                          <p class="word2">TAOOMA Apaokagi Marya..</p>
+                          <p class="word3">781K . 7months ago </p>
+                            </div>
+                           
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1099.png"></span>
+                           <div><img src="images/baby.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=DjwBJwkzXq4" class="word">MY ROOM TOUR/Priscilla </a></p>
+                                <p class="word1">Ojo</p>
+                                <p class="word2">PRISCYS VLOG</p>
+                                <p class="word3">188Kveiws . 2weeks ago </p>
+                            </div>
+                     
+                        </div>
+                <div class="vids">
+                        <div class="imgs">
+                      
+                            <span><img class="nnn" src="images/1101.png"></span>
+                            <div><img src="images/TY.jpg" class="ppp"></div>
+                                <div class="ok">
+                                    <p><a href="https://www.youtube.com/watch?v=7HMZK4OGm8w" class="word">DUNSIN OYEKAN AND TY </a></p>
+                                    <p class="word1">BELLO- ORANMO NISE..</p>
+                                    <p class="word2">TY BELLO</p>
+                                    <p class="word3">20Kveiws . 1weeks ago </p>
+                                </div>
+                         
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1111.png"></span>
+                           <div><img src="images/udu.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=Ocil4o4jbL4" class="word">Best Friends - Best Friends</a></p>
+                                <p class="word1">With Benefit - New Nigeria</p>
+                                <p class="word2">Uduak isong TV</p>
+                                <p class="word3">690Kveiws . 1month ago </p>
+                            </div>
+                        
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1177.png"></span>
+                           <div><img src="images/global.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=MuaX0J3o5uQ" class="word">FUN+SENSE MOMENTS</a></p>
+                                <p class="word1">WITH PASTOR LAWRENCE </p>
+                                <p class="word2">Gospel Konnect</p>
+                                <p class="word3">50Kveiws . 5month ago </p>
+                            </div>
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/211.PNG"></span>
+                           <div><img src="images/law.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=OxFtmOghuqo" class="word"> NIGERIA WILL BE GREAT||</a></p>
+                                <p class="word1">Lawrence and Darasimi Oyor</p>
+                                <p class="word2">Lawerance Oyor</p>
+                                <p class="word3">18Kveiws . 8hours ago </p>
+                            </div>
+                     
+                        </div>
+                <div class="vids">
+                        <div class="imgs">
+                      
+                            <span><img class="nnn" src="images/000.PNG"></span>
+                            <div><img src="images/brain.jpg" class="ppp"></div>
+                                <div class="ok">
+                                    <p><a href="https://www.youtube.com/watch?v=bOvKQO38wTU" class="word"> 15 Things a Man Will Do</a></p>
+                                    <p class="word1">Only If He Really Loves You</p>
+                                    <p class="word2">BRAINLY DOSE</p>
+                                    <p class="word3">677Kveiws . 2months ago </p>
+                                </div>
+                         
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/bubu.PNG"></span>
+                           <div><img src="images/anc.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=LQqHi_4Btzc" class="word"> POLITICIANS SHOCKED</a></p>
+                                <p class="word1">AGAIN AT NIGERIA..</p>
+                                <p class="word2">ANCHOR NETWORK</p>
+                                <p class="word3">32Kveiws . 1day ago </p>
+                            </div>
+                        
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1151.png"></span>
+                           <div><img src="images/brow.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=ju1S5fXJzs4" class="word"> HOW TO DRAW EYEBROWS</a></p>
+                                <p class="word1">FOR BEGINNERS: Beginner...</p>
+                                <p class="word2"> Lola Bello</p>
+                                <p class="word3">302Kveiws . 7months ago </p>
+                            </div>
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/222.PNG"></span>
+                           <div><img src="images/ndani.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=1wXrN6IDhsM" class="word">Skinny Girls in Transit S5E4:</a></p>
+                                <p class="word1">Fess Up</p>
+                                <p class="word2">NdaniTV</p>
+                                <p class="word3">861Kveiws . 1year ago </p>
+                            </div>
+                     
+                        </div>
+                <div class="vids">
+                        <div class="imgs">
+                      
+                            <span><img class="nnn" src="images/1181.png"></span>
+                            <div><img src="images/beauty.jpg" class="ppp"></div>
+                                <div class="ok">
+                                    <p><a href="https://www.youtube.com/watch?v=1wXrN6IDhsM" class="word">SPEAKING YORUBA TO MY</a></p>
+                                    <p class="word1">BRITISH DAUGHTER FOR..</p>
+                                    <p class="word2">THIS IS AMINA</p>
+                                    <p class="word3">23Kveiws . 1week ago </p>
+                                </div>
+                         
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1191.png"></span>
+                           <div><img src="images/tao.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=vVvZ7q8FZVk" class="word">TAAOOMA - PARTYING AT</a></p>
+                                <p class="word1">HOME</p>
+                                <p class="word2">TAAOOMA Apaokagi Marya..</p>
+                                <p class="word3">431Kveiws . 10months ago </p>
+                            </div>
+                        
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1201.png"></span>
+                           <div><img src="images/iya.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=dU-l_qS-J5o" class="word">Priscy 18th surprise birthday </a></p>
+                                <p class="word1">party</p>
+                                <p class="word2">Iyabo Ojo Vlog</p>
+                                <p class="word3">88Kveiws . 4months ago </p>
+                            </div>
+                     
+                        </div>
+
+                        <div class="imgs">
+                      
+                           <span><img class="nnn" src="images/1211.png"></span>
+                           <div><img src="images/saggi.jpg" class="ppp"></div>
+                            <div class="ok">
+                                <p><a href="https://www.youtube.com/watch?v=qF_EEMt1I_g" class="word">BRODASHAGGI RENTS</a></p>
+                                <p class="word1">ROOM IN DAVIDO'S...</p>
+                                <p class="word2">official  BRODA SHAGGI</p>
+                                <p class="word3">2.2Mveiws . 3montths ago </p>
+                            </div>
+                     
+                        </div>
+
+                </div>
+                         
+                      
+
+            </div>
+                    
+                    <div class=" role spinner-border text-secondary" role="status"></div>
+
+                   
+                    
+                    
+
+        </div>            
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/jquery.min.js"></script>
+        <script src="../bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

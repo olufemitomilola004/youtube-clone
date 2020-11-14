@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+       <link rel="stylesheet" type="text/css" href="../bootstrap/dist/css/bootstrap.min.css">
+       <script src="https://kit.fontawesome.com/4f06ab69fc.js" crossorigin="anonymous"></script>
+       <title class="fa fa-youtube">YouTube </title>
+
+       <style>
+           #nav{
+               background-color: white;
+               cursor: pointer;
+               height: 60px;
+               position: fixed;
+               background-color: cream;
+           } 
+           
+
+            #pp{
+            margin-top: -7px;   
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            }
+
+            .body{
+                margin-top: 60px !important;
+                width: auto;
+                height: 1600px;
+                background-color: rgb(249,249,249);
+            }
+
+            .vid12345{
+                width: 855px;
+                height: 1300px;
+                background-color: rgb(249,249,249);
+                margin-left: 35px;
+                
+
+            }
+
+            .vid{
+               
+                top: 10px !important;
+                
+                }
+
+            .vidw{
+                width: 855px;
+                margin-top: 20px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 18px;
+                color: #030303
+            }
+
+             .vidw1{
+                width: 855px;
+                margin-top: 10px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #606060;
+            }
+
+            .vidw2{
+                width: 855px;
+                margin-top: 10px;
+                margin-left: 340px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                color: #606060;
+                cursor: pointer;
+            }
+
+            .vidw3{
+                width: 855px;
+                margin-top: -45px;
+                margin-left: 65px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 550;
+                font-size: 14px;
+                color: #030303;
+                cursor: pointer;
+            }
+
+            .gg{
+                position: absolute;
+                padding: 10px;
+                width: 105px;
+                margin-top: -27px;
+                margin-left: 740px;
+                font-family: Roboto, Noto, sans-serif;
+                font-weight: 550;
+                font-size: 14px;
+                background-color: #CC0000;
+                cursor: pointer;
+                color: white;
+                border: none;
+                border-radius: 2px;
+            
+            }
+
+            .vidw4{
+                width: 855px;
+                margin-left: 65px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 13px;
+                color: #606060;
+         
+            }
+
+            .vidw5{
+                width: 855px;
+                margin-left: 65px;
+                margin-top: 25px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                color: #030303;
+         
+            }
+
+             .vidw6{
+                width: 855px;
+                margin-left: 65px;
+                margin-top: 25px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 550;
+                font-size: 13px;
+                color: #030303;
+         
+            }
+
+            .vidw7{
+                width: 855px;
+                margin-top: 25px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                color: #030303;
+         
+            }
+
+             .vidw8{
+                width: 855px;
+                margin-top: 25px;
+                margin-left: 35px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 550;
+                font-size: 14px;
+                color: #606060;
+            }
+
+            .vidw9{
+                position: absolute;
+                width: 755px;
+                margin-left: 55px;
+                margin-top: -40px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                border: none;
+                background-color: rgb(249,249,249);
+                color: #000000
+            }
+
+            .vidw9:focus{
+                position: absolute;
+                width: 755px;
+                margin-left: 55px;
+                margin-top: -40px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                outline: none;
+                background-color: rgb(249,249,249);
+                color: #000000
+
+            }
+
+            .vidw10{
+                width: 855px;
+                margin-left: 55px;
+                margin-top: -40px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 13px;
+                border: none;
+                background-color: rgb(249,249,249);
+                color: #606060
+            }
+
+            .vidw11{
+                width: 755px;
+                margin-left: 55px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                border: none;
+                background-color: rgb(249,249,249);
+                color: #000000
+            }
+
+            .vidw12{
+                width: 855px;
+                margin-left: 55px;
+                margin-top: 20px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                background-color: rgb(249,249,249);
+                color: #606060
+            }
+
+            .vidw13{
+                width: 855px;
+                margin-left: 145px;
+                margin-top: -18px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                background-color: rgb(249,249,249);
+                color: #606060
+            }
+
+            .vidw14{
+                width: 855px;
+                margin-left: 55px;
+                margin-top: 10px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 550;
+                font-size: 14px;
+                background-color: rgb(249,249,249);
+                color: #065fd4;
+            }
+
+
+
+
+            .fag{
+                margin-top: 40px;
+                width: 40px;
+                height: 40px;
+                border-radius: 30px;
+            }
+
+            .cid{
+                margin-top: 20px;
+                width: 50px;
+                height: 50px;
+                border-radius: 30px;
+            }
+
+
+
+            .up{
+                margin-left: 915px;
+                margin-top: -1285px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 16px;
+                color: #030303
+            }
+            .auto{
+                margin-left: 215px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 12px;
+                color: #060606;
+                font-weight: 500px;
+
+            }
+
+            .cirx{
+                margin-left: 345px;
+                margin-top: -19px;
+                width: 35px;
+                height: 14px;
+                border-radius: 20px;
+                background-color: #E3E3E3;
+            }
+
+            .cir{
+                margin-left: 361px;
+                margin-top: -17px;
+                width: 20px;
+                height: 20px;
+                border-radius: 20px;
+                background-color: #065FD4;
+            }
+
+
+            .imagexx{
+                margin-left: 915px;
+                margin-top: 10px;
+                          
+            } 
+
+            .ogg{
+                margin-top: 20px;
+
+
+            }
+
+            .oggg{
+                margin-top: 25px;
+
+
+            }
+
+            .ogggg{
+                margin-top: 35px;
+
+
+            }
+
+            .img{
+                width: 165px;
+                height: 100px;
+            }
+
+
+            .gxx{
+                width: 220px;
+                margin-left: 173px;
+                margin-top: -105px;
+            }
+
+            .word{
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 550;
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.7);
+                line-height: 10px;
+
+            }
+
+            .word1{
+                margin-top: 15px;
+                font-family: Roboto, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 13px;
+                color: #606060;
+                line-height: 14px;
+
+
+            }
+
+            .vidline{
+                width: 855px;
+                height: 1px;
+                background-color: #E0E0E0;
+                margin-top: 20px;
+
+            }
+
+             .vidlinex{
+                margin-left: 55px;
+                width: 800px;
+                height: 1px;
+                background-color: #E0E0E0;
+                margin-top: -15px;
+               
+
+            }
+
+            .line{
+                width: 400px;
+                height: 1px;
+                background-color: #E0E0E0;
+                margin-top: 40px;
+
+
+            }
+
+            .rolex{
+            margin-top: 50px;
+            margin-left: 500px;
+            }
+          
+            .role{
+            margin-top: 50px;
+            margin-left: 100px;
+            }
+            #pp{
+            margin-top: -7px;   
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            }
+            .you1{
+                height: 20px;
+                width: 25px;
+            }
+            @media only screen and (max-width:767px){
+                body{
+                    background-color: rgb(249,249,249) ;
+                }
+                .p1{
+                    margin-left: 5px !important;
+                }
+                .you1{
+                    margin-left: 4px !important;
+                }
+               
+                .p2{
+                    margin-left: 4px !important;
+                }
+                .us{
+                    margin-top: 750px;
+                    margin-left: -900px;
+                }
+                .c{
+                    display: none !important;
+                    
+                }
+                .d{
+                    display: none !important;
+                }
+                .fafigon{
+                    margin-left: 200px;
+                }
+              
+                
+                .b{
+                    margin-right: 4px !important;
+                    margin-top: -2px !important;
+                    margin-left: -200px;
+                    
+                }
+                .pp{
+                    margin-right: 0px;
+                }
+                
+                .vid{
+                    height: 200px !important;
+                    width: 450px !important;
+                    margin-left: -33px !important;
+                }
+                .vidw{
+                   font-weight: 400px;
+                   font-size: 15px;
+                   margin-left: -33px;
+                   margin-top: 290px;
+                }
+                .vidw1{
+                    margin-left: -33px;
+                  
+                    font-size: 14px;
+                    font-weight: 400px;
+                }
+                .vidw2{
+                    margin-left: 280px;
+                    
+                    font-size: 15px;
+                    font-weight: 400px;
+                }
+                .gg{
+                    margin-left: 650px;
+                }
+                .we{
+                    display: none;
+                }
+            }
+           
+          
+
+       </style>
+  </head>
+    <body>
+        <div>
+
+            <nav class="  p-3 d-flex justify-content-between fixed-top" id="nav">
+                <div>
+                    <span class="p1 fa fa-bars ml-2">
+    
+                    </span>
+                    <img src="images/youtube1.png" class="you1 ml-5">
+                    <!-- <span class="fab fa-youtube" style="color: red; margin-left: 20px "> -->
+          
+                    </span>
+                    <span class="p2 font-weight-bold " id="big" style="font-family: Roboto, Arial, sans-serif;">
+                        YouTube<sup class="font-weight-light" id="small">NG</sup></span>
+                </div>
+        
+                <div class=" search w-50" >
+                    <div class="input-group">
+                        <input class="form-control" type="text" name="" placeholder="Search" aria-label="Recipient's" aria-describedby="my-addon">
+                        <div class="input-group-append">
+                        <span class="input-group-text" id="my-addon">
+                            <span class="fa fa-search"></span>
+                        </span>
+                        
+                    </div>
+        
+                </div>
+                </div>
+               
+                <div class="fafigon">
+                    
+                    <span class="b fa fa-video mr-4 mt-2" ></span>
+                    <span class="c fas fa-th mr-4 mt-2"></span>
+                    <span class="d fas fa-bell mr-4 mt-2"></span>
+                    <span><img src="images/wendy.jpg" class="rounded-circle" id="pp" alt=""></span>
+                </div>
+            </nav>
+              
+
+                 
+            <div class="body">
+                  
+
+                 <div class="vid12345">
+                    <div class="vid"><iframe width="853" height="480" src="https://www.youtube.com/embed/2Y3qSilUI9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+                    <div class="vidw">DaraLaw 2020:LAWRENCE AND DARASIMI OYOR'S OFFICIAL WEDDING IN GRAND STYLE || Modesty + Elegance</div>
+
+                    <div class="vidw1">1,022,084 views • Feb 17, 2020 <span class="vidw2"> <i class="fas fa-thumbs-up ml-2"></i> 26k <i class="fas fa-thumbs-down ml-2"></i> 577 <i class="fas fa-share ml-2"></i> SHARE <i class="fas fa-share-square ml-2"></i> SAVE <i class="fas fa-ellipsis-h ml-4"></i></span> </div>
+
+                    <div class="vidline"></div>
+
+                    <div> <img class="cid" src="images/132.PNG"> </div> 
+
+                    <div class="vidw3"> ABOVE INSPIRATION <i class="fas fa-check-circle"></i> </div>
+
+                    <button class="gg "> SUBSCRIBE </button>
+
+                    <div class="vidw4">1.53M subscribers</div>
+
+                    <div class="vidw5"> How you start your day is how you live your day. So, start it early, start it with passion, and start it <br> with God! One of the most inspiring motivational videos ever! </div>
+
+                    <div class="vidw6"> SHOW MORE </div>
+                    <div class="we">
+
+                    <div class="vidline"></div>
+
+                    <div class="vidw7"> 828 Comments <span class="vidw8" ><i class="fas fa-sort-amount-down mr-2"></i>SORT BY</span></div>
+
+                    <div class="we">
+                    <div><img class="fag" src="images/wendy.jpg"></div>
+
+                    <input class="vidw9" type="" name="" placeholder="Add a public Comment...">
+
+                    <div class="vidlinex"></div>
+
+                    <div><img class="fag" src="images/12.PNG"></div>
+
+                    <div class="vidw10">Pinned by ABOVE INSPIRATION</div>
+
+                    <div class="vidw11">If this channel has blessed you, make sure to subscribe & share it with others & lift them up to the Lord!</div>
+
+                    <div class="vidw12"> <i class="fas fa-thumbs-up"></i> 354  <i class="fas fa-thumbs-down ml-3"></i></div>
+
+                    <div class="vidw13"> REPLY </div>
+
+                    <div class="vidw14"> <i class="fas fa-sort-down mr-3"></i> View 23 replies</div>
+
+                    <div><img class="fag" src="images/11.PNG"></div>
+
+                    <div class="vidw10">Emeritus Adonesk</div>
+
+                    <div class="vidw11">Edifying and Soul Lifting</div>
+
+                    <div class="vidw12"> <i class="fas fa-thumbs-up"></i> 4  <i class="fas fa-thumbs-down ml-3"></i></div>
+
+                    <div class="vidw13"> REPLY </div>
+
+                    <div class="vidw14"> <i class="fas fa-sort-down mr-3"></i> View 3 replies</div>
+
+                    <div><img class="fag" src="images/20.PNG"></div>
+
+                    <div class="vidw10">Agara Inot</div>
+
+                    <div class="vidw11">I'm so glad to see people out there love god😍. I have been struggling to follow him and have be struggling with temptations along with a lot of stressful family things that are out of my control but this video popped up on my phone and made me feel better made this day worth living through. God bless everyone</div>
+
+                    <div class="vidw12"> <i class="fas fa-thumbs-up"></i> 4  <i class="fas fa-thumbs-down ml-3"></i></div>
+
+                    <div class="vidw13"> REPLY </div>
+
+                    <div class="vidw14"> <i class="fas fa-sort-down mr-3"></i> View 3 replies</div>
+
+                    <div class=" rolex spinner-border text-secondary " role="status"></div>
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    
+
+
+                        
+                </div>
+                <div class="us">
+                    <div class="up">Up next 
+                        <span class="auto">AUTOPLAY</span>
+                        <div class="cirx"></div>
+                        <div class="cir"></div>
+                    </div>
+
+                    <div class="imagexx">
+                        
+                        <div>
+                      
+                        <span><img class="img" src="images/11.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">Milan 3-3 Roma | Roma fight </span>
+                        <div class="word">Back thrice to rescue a poi...</div>
+                        <div class="word1" >Serie A <i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">1.5M views. 11 hours ago </span>
+                        </div>
+
+                        </div>
+
+                        <div class="line w-100"></div>
+
+                    <div class="ogg"> 
+                        <div>
+                      
+                        <span><img class="img" src="images/12.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">IPHONE 12 vs 12 PRO DROP</span>
+                        <div class="word">Test! 4x Stronger Ceramic</div>
+                        <div class="word1">EverythingApplePro EAP <i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">3.2M views . 3 days ago </span>
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/132.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">Ilu Awon Oku 2 Latest </span>
+                        <div class="word">Yoruba Movie 2020 Drama...</div>
+                        <div class="word1">APATATV+<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">818K views . 6 days ago</span>
+                        </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/13.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">Bella Shmurda Ft. Zlatan &</span>
+                        <div class="word">Lincoln - Cash App (AUDIO)</div>
+                        <div class="word1">Naijakit TV<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">95K views . 2 weeks ago </span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/14.PNG  "></span>
+                        <div class="gxx">
+                        <span class="word">Looking For A Driver</span>
+                        <div class="word"></div>
+                        <div class="word1">Mr Macaroni<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">380K views . 8 months ago</span>
+                        </div>
+
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="ogggg">
+                         <div>
+                      
+                        <span><img class="img" src="images/15.PNG"></span>
+                        <div class="gxx">
+                        <span class="word">Burnley vs Tottenham</span>
+                        <div class="word">Hotspur 0-1 - All Goals &...</div>
+                        <div class="word1">Hoang Dung [ hay thu thac...<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">30K views . 12 hours ago </span>
+                        </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/16.PNG"></span>
+                        <div class="gxx">
+                        <span class="word">Ogbontarigi Part 2 - Latest</span>
+                        <div class="word">Yoruba Movie 2020...</div>
+                        <div class="word1">Yorubahood<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">204K views . 2 days ago</span>
+                        </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/17.PNG"></span>
+                        <div class="gxx">
+                        <span class="word">MARITAL VOW Latest</span>
+                        <div class="word">Yoruba Movie 2020 Niyi...</div>
+                        <div class="word1">LibraTv<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">8.8K views . 6 hours ago</span>
+                        </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/21.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">The Most Beautiful Dribbling</span>
+                        <div class="word">Skills & Tricks 2020</div>
+                        <div class="word1">Teo CRi<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">2.8M views . 3 months ago</span>
+                        </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/19.PNG "></span>
+                        <div class="gxx">
+                        <span class="word">Anthony Martial - When</span>
+                        <div class="word">Dribbling Becomes Art</div>
+                        <div class="word1">ZFH Football<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">296K views . 4 months ago</span>
+                        </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="oggg">
+                        <div>
+                      
+                        <span><img class="img" src="images/20.PNG  "></span>
+                        <div class="gxx">
+                        <span class="word">Zlatan Ibrahimovic is still</span>
+                        <div class="word">WORLD CLASS</div>
+                        <div class="word1">KaiiZoFilms<i class="fas fa-check-circle"></i> </div>
+                        <span class="word1">9.3K views . 7 hours ago</span>
+                        </div>
+
+                        </div>
+
+                        <div class="oggg">
+                            <div>
+                          
+                            <span><img class="img" src="images/21.PNG  "></span>
+                            <div class="gxx">
+                            <span class="word">Zlatan Ibrahimovic is still</span>
+                            <div class="word">WORLD CLASS</div>
+                            <div class="word1">KaiiZoFilms<i class="fas fa-check-circle"></i> </div>
+                            <span class="word1">9.3K views . 7 hours ago</span>
+                            </div>
+    
+                            </div>
+
+                            
+                            <div class="oggg">
+                                <div>
+                              
+                                <span><img class="img" src="images/11.PNG  "></span>
+                                <div class="gxx">
+                                <span class="word">Zlatan Ibrahimovic is still</span>
+                                <div class="word">WORLD CLASS</div>
+                                <div class="word1">KaiiZoFilms<i class="fas fa-check-circle"></i> </div>
+                                <span class="word1">9.3K views . 7 hours ago</span>
+                                </div>
+        
+                                </div>
+
+                                
+                                <div class="oggg">
+                                    <div>
+                                  
+                                    <span><img class="img" src="images/21.PNG  "></span>
+                                    <div class="gxx">
+                                    <span class="word">Zlatan Ibrahimovic is still</span>
+                                    <div class="word">WORLD CLASS</div>
+                                    <div class="word1">KaiiZoFilms<i class="fas fa-check-circle"></i> </div>
+                                    <span class="word1">9.3K views . 7 hours ago</span>
+                                    </div>
+            
+                                    </div>
+            
+
+                        
+                    </div>
+                    <div class=" role spinner-border text-secondary " role="status"></div>
+                    </div>
+
+                        
+
+                    </div>
+            </div>
+
+                
+
+
+
+                    
+
+                    
+                 
+                
+            </div>
+        </div>
+        <script src="../bootstrap/js/popper.min.js"></script>
+        <script src="../bootstrap/js/jquery.min.js"></script>
+        <script src="../bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
